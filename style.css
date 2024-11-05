@@ -1,37 +1,62 @@
-/* 基本设置 */
+/* 全局设置：采用苹果风格，简约绿色 */
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f9f5;
+    background-color: #F4F6F7; /* 浅绿色背景，柔和舒适 */
     color: #333;
 }
 
 /* 头部样式 */
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
+    background-color: #A2D9CE; /* 苹果风格的柔和绿色 */
+    color: #FFFFFF;
+    padding: 20px;
     text-align: center;
 }
 
-/* 导航样式 */
+/* 导航栏样式 */
 nav a {
-    color: white;
-    margin: 0 10px;
+    color: #FFFFFF;
+    margin: 0 15px;
     text-decoration: none;
+    font-weight: 500;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/* 主要内容 */
+/* 主要内容区域 */
 main {
-    margin: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 微妙的阴影，增加苹果风质感 */
 }
 
-/* 标题样式 */
+/* 标题和段落样式 */
 h1, h2 {
-    color: #4CAF50;
+    color: #117A65; /* 深绿色，和谐的绿色配色 */
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
 }
