@@ -1,2 +1,2 @@
-# lumi.github.io
+# lumimimi.github.io
 Lumi's Blog
